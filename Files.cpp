@@ -5,7 +5,9 @@
 #include <string>
 #include <stdio.h>
 #include <Windows.h>
-using namespace std;
+using std::cout; using std::cin; using std::string;
+using std::ofstream; using std::ifstream; using std::endl;
+using std::to_string; using std::fstream; using std::getline;
 namespace fs = std::filesystem;
 
 void work_with_student(int where_start, string folder, string* links, int kol, int file_num);
